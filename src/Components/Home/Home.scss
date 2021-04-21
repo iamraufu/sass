@@ -1,16 +1,15 @@
-$odd:lightgrey;
-$body :lightblue;
-$margin:10px;
-$padding:5px;
-$odd-hover:2px solid black;
+@import '../Shared/color.scss';
+@import '../Shared/fonts.scss';
 .body {
     background-color: $body;
     margin: $margin;
+    font-size: $large;
 }
 
 .odd {
     background-color: $odd;
     padding: $padding;
+    font-size: $extra-large;
 }
 
 .odd:hover {
