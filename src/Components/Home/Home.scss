@@ -1,0 +1,18 @@
+$odd:lightgrey;
+$body :lightblue;
+$margin:10px;
+$padding:5px;
+$odd-hover:2px solid black;
+.body {
+    background-color: $body;
+    margin: $margin;
+}
+
+.odd {
+    background-color: $odd;
+    padding: $padding;
+}
+
+.odd:hover {
+    border: $odd-hover;
+}
